@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Technical Solution">
+  <test name="allTests">
+    <packages>
+      <package name="test"/>
+    </packages>
+    <classes>
+      <class name="test.CreateOwnerPageTest"/>
+      <class name="test.HomePageTest"/>
+      <class name="test.OwnerSearchTest"/>
+      <class name="test.VetsPageTest"/>
+    </classes>
+  </test> <!-- allTests -->
+</suite> <!-- Technical Solution -->
